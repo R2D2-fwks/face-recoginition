@@ -1,0 +1,100 @@
+#wrapper, #btn-container, #wrapper-view{
+  display: inline-block;
+}
+
+#container{
+  width: 100%;
+  min-width: 1000px;
+  min-height: 600px;
+  border-bottom: 1px solid #E7EBED;
+  border-right: 1px solid #E7EBED;
+  height: 100%;
+  background: url('/myapp/images/grid5.png');
+}
+
+#btn-container{
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+#wrapper-view{
+  width: 100%;
+  min-width: 1000px;
+  min-height: 600px;
+  height: 100%;
+  border: 1px solid #E7EBED;
+  background-color: #F7F7F7;
+}
+
+.statsTile {
+    min-width: 150px;
+    width: 180px;
+    min-height: 50px;
+    height: 180px;
+    background: white;
+    position: absolute !important;
+    border: 1px dashed #ccc;
+    text-align: center;
+}
+.statsTile h4 {
+    text-align: center;
+    margin: 0;
+    border: 1px solid #E7EBED;
+}
+
+.ui-widget-content .ui-icon {
+    background-image: url('/myapp/images/ui-icons_222222_256x240.png');
+}
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -47px -33px;
+}
+.ui-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('/myapp/images/ui-icons_222222_256x240.png');
+}
+
+.clossable {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    background-image: url('/myapp/images/ui-icons_222222_256x240.png');
+    background-position: -80px -128px;
+    z-index: 100;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px; display: block; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+
+#addWidgetArea span{
+  border: 2px dashed #CCCCCC;
+  padding: 5px;
+}
+
+.ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #cccccc url('/myapp/images/ui-bg_highlight-soft_75_cccccc_1x100.png') 50% 50% repeat-x;
+    color: #222222;
+    font-weight: bold;
+}
+
+.statsTileRes {
+    background-color: #FFFFFF;
+    border: none;
+    position: absolute;
+    text-align: center;
+}
+.statsTileRes h4 {
+    text-align: center;
+    margin: 0;
+    border: 1px solid #E7EBED;
+}

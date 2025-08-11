@@ -1,0 +1,321 @@
+#page-container {
+  margin-top: 5px;
+}
+
+div#uploadDoc-data-select-container select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 245px;
+  padding-left: 5px !important;
+}
+
+#new-data-selector{
+width: 266px;
+
+}
+
+#uploadDoc-data-select-container{
+padding-top: 0px !important;
+}
+
+#data-name-container, #save-shower{
+  margin-top: 10px;
+}
+#data-name-container .form-container, #save-shower .form-container{
+  padding-bottom: 0px !important;
+}
+
+#container-yellow {
+  /*background-color: #FFF2CC !important;*/
+  /*background-color: #ECF0F1 !important;*/
+  min-height: 215px;
+  background: none !important;
+}
+
+div#selector-table table {
+  background-color: #FFFFFF;
+  /*border: 1px solid #000000;*/
+  border: none;
+  /*width: 70%;*/
+  /*width: 67%;*/
+  /*width: 59%;*/
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  /*padding-bottom: 20px;*/
+}
+
+div#selector-table table .form-container{
+  padding: 0px !important;
+}
+
+div#table-row, div#submit-row{
+  border: 1px solid #E3E3E3;
+}
+div#table-row{
+  border-bottom: none;
+}
+div#submit-row{
+  border-top: none;
+}
+
+div#alert-box-row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+div.alert-box {
+    color: #555;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-left: 8px solid #71AACA;
+    min-height: 30px;
+    width: 100%;
+    background-color: #CEE2EE;
+}
+div.alert-box .alert-box-text{
+  display: inline-block;
+  margin: 7px;
+  text-transform: uppercase;
+}
+
+.form-container input[type=file]#fileinput {
+  display: none;
+}
+
+.form-container select {
+  border: 1px solid #E4E4E4;
+  box-shadow: none;
+  height: 40px !important;
+  padding: 4px 4px 4px 8px;
+  font-family: 'Helvetica Neue', 'Source Sans Pro',Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  color: #383737;
+  transition: all .3s;
+}
+
+.form-container select:focus {
+  /*border-bottom: 2px solid rgba(81, 203, 238, 1);*/
+  border: 1px solid #E4E4E4;
+  background-color: #FFFFFF;
+}
+.form-container select option {
+  /*font-size: 14px;*/
+  border: 0;
+}
+.form-container #uploadDoc-select-label {
+  position: relative;
+}
+.form-container #uploadDoc-select-label:hover {
+  color: #A3A3A3;
+}
+.form-container #uploadDoc-select-label:after {
+  font-family: FontAwesome;
+  content: "\f0d7";
+  background: #FFFFFF;
+  /* border: 1px solid #E4E4E4; */
+  padding: 2% 12px;
+  font-size: 20px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  pointer-events: none;
+  border-left: 1px solid #E4E4E4;
+}
+
+#data-name-container .form-container, #save-shower .form-container{
+  padding-bottom: 0px !important;
+}
+div#selector-table table .form-container{
+  padding: 0px !important;
+}
+
+.bubble-text .form-container input[type="text"],
+.bubble-text .form-container input[type="text"]:focus{
+  font-size: 14px !important;
+  position: absolute;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none !important;
+  margin-top: -15px !important;
+  outline: none;
+  background-color: transparent !important;
+}
+.bubble-text .form-container select{
+  position: absolute;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none !important;
+  margin-top: -24px !important;
+  margin-left: -15px !important;
+  width: 55% !important;
+}
+
+.bubble-container {
+    background-color: #CEE2EE;
+    width: 80%;
+    height: 45px;
+}
+
+.bubble-icon {
+    width: 20%;
+    background: #71AACA;
+    height: 100%;
+    text-align: center;
+    padding: 12px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.bubble-text {
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.bubble-container {
+    background-color: #CEE2EE;
+    width: 80%;
+    height: 45px;
+}
+
+.bubble-icon {
+    width: 20%;
+    background: #71AACA;
+    height: 100%;
+    text-align: center;
+    padding: 12px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.container-empty {
+  height: 400px;
+  border: 4px dashed #E3E3E3;
+  text-align: center;
+  font-weight: 800;
+  font-size: 21px;
+  color: #E3E3E3;
+}
+.container-empty > i {
+  font-weight: 800;
+  color: #E3E3E3;
+  margin-top: 15%;
+}
+div#data-header-snap1{
+  background-color: #EEEEEE;
+}
+.chart-container-empty{
+  height: 400px;
+  border: 4px dashed #E3E3E3;
+  text-align: center;
+  font-weight: 800;
+  font-size: 21px;
+  color: #E3E3E3;
+  margin-left: 30px;
+}
+.chart-container-empty > i {
+  font-weight: 800;
+  color: #E3E3E3;
+  margin-top: 50%;
+}
+
+.meta-data-block {
+  min-height: 150px;
+}
+
+div#selector-table table .form-container{
+  padding: 0px !important;
+}
+
+div#selector-table table {
+  background-color: #FFFFFF;
+  /*border: 1px solid #000000;*/
+  border: none;
+  /*width: 70%;*/
+  /*width: 67%;*/
+  /*width: 59%;*/
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+  /*padding-bottom: 20px;*/
+}
+
+#template-button {
+    margin-top: 14px;
+    width: 267px;
+    height: 47px;
+}
+p.thought {
+    position: relative;
+    width: 130px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+    border: 8px solid #666;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    border-radius: 58px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+#template-area table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#template-area th {
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #3d5263;
+    color: white;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+}
+#template-area td {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #f5f5f5;
+}
+#template-area table, #template-area th, #template-area td {
+    border: 1px solid #e3e3e3;
+    white-space: normal;
+}
+#template-area .table-css {
+    margin: 20px 20px 0px 0px;
+}
+
+#template-area{
+  margin-top: 14px;
+  width: 267px;
+}
+
+#template-report-save{
+  margin-top: 16px;
+}
+
+
+#template-table{
+  margin-top: 16px;
+}
+
+#save-template-box{
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  height: 33px;
+}
+
+#selectClearbtn{
+  margin-left: 11px;
+}

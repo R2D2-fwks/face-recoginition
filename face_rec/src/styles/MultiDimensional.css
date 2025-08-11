@@ -1,0 +1,310 @@
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+#MultiDimensional .body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+/*#MultiDimensional table {
+ border-collapse: collapse;
+ width: 100%;
+ margin-top: 54px;
+}
+
+
+#MultiDimensional td{
+
+text-align: center;
+vertical-align: bottom;
+padding: 10px;
+font-family:  'Helvetica Neue', 'Helvetica';
+ font-size: 12px;
+ font-weight: 300;
+ background-color: #f5f5f5;
+border: 1px solid rgba(222, 153, 94, 0.13);
+}
+
+#MultiDimensional th {
+ height: 40px;
+ text-align: center;
+ padding: 10px;
+ background-color: #de995e;
+ color: white;
+ font-family:  'Helvetica Neue', 'Helvetica';
+ font-size: 12px;
+ font-weight: 400;
+ }*/
+
+ #MultiDimensional table {
+    border: 1px solid #e3e3e3;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#MultiDimensional table,
+#MultiDimensional th,
+#MultiDimensional td {
+    border-bottom: 1px solid #e3e3e3;
+    white-space: normal;
+    /* color: #73879C; */
+    color: #005172;
+}
+
+#MultiDimensional th {
+    text-align: left;
+    /* border-bottom: 2px solid #e3e3e3 !important; */
+    /* background-color: #00AFAA !important; */
+    background-color: #DE995E !important;
+    color: #FFFFFF !important;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+#MultiDimensional td {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 10px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 300;
+    /* background-color: #f5f5f5; */
+}
+
+#MultiDimensional tr:nth-child(odd) {
+    background: #F9F9F9;
+}
+
+#MultiDimensional tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+.table-css {
+    margin: 20px 20px 0px 0px;
+}
+
+#DisplayMetaData {
+    margin-left: 12px;
+}
+
+#chart-container {
+    height: 500px !important;
+}
+
+#MultiDimensional #DataNames label {
+    font-size: 12px !important;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 600 !important;
+}
+
+#MultiDimensional label {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#MultiDimensional #multidim-drag-drop {
+    color: #E3E3E3;
+}
+
+div.drag-item3 {
+    word-wrap: break-word;
+    width: inherit;
+    line-height: 30px;
+    padding: 5px;
+    text-overflow: ellipsis;
+    margin: 0px 0px 0px 0px;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(222, 153, 94, 0.13);
+    cursor: pointer;
+}
+
+#MultiDimensional #MultiDimensional-custom-search-input {
+    border: solid 1px #E4E4E4;
+    border-radius: 2px;
+    background-color: #fff;
+    height: 40px;
+    margin: 18px 0px 18px 0px;
+    width: 412px;
+}
+
+#MultiDimensional #MultiDimensional-custom-search-input input {
+    border: 0;
+    box-shadow: none;
+    height: 38px;
+    padding: 2px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 14px;
+}
+
+#MultiDimensional #MultiDimensional-custom-search-input button {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    line-height: 26px;
+    border-left: solid 1px #ccc;
+    height: 38px;
+}
+
+#MultiDimensional #MultiDimensional-custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#MultiDimensional-Col-List {
+    margin-top: 10px;
+    height: 100%;
+    padding: 1px;
+    width: 66%;
+    background-color: white;
+    border-radius: 0 !important;
+    border-color: rgb(103, 119, 136);
+}
+
+#viewnametext {
+    width: 50% !important;
+}
+
+#MultiDimensional-label {
+    margin-top: 15px;
+}
+
+#MultiDimensional-btncls {
+    height: 44px !important;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#MultiDimensional .pure-table-odd td {
+    background-color: #f2f2f2
+}
+
+#MultiDimensional .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+    text-align: left !important;
+}
+
+#MultiDimensional #sortable1,
+#sortable2,
+#sortable3 {
+    box-shadow: 2px 2px 2px 2px #C5C3C3;
+}
+
+#MultiDimensional .example-enter {
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+}
+
+#MultiDimensional .example-enter.example-enter-active {
+    opacity: 1;
+}
+
+#MultiDimensional #Table-Area {
+    background-color: rgba(234, 233, 229, 0.28);
+}
+
+#MultiDimensional #MultiDimSubBtn {
+    width: 10% !important;
+}
+
+#MultiDimensional #MultiDimSavDivWrapper {
+    padding-left: 700px;
+}
+
+#MultiDimensional #searchBox {
+    padding-left: 0px !important;
+}
+
+#MultiDimensional #DataNames {
+    color: #555;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-left: 8px solid #71AACA;
+    /*margin-top: 10px;*/
+    /*margin-left: 10px;
+    min-height: 44px;
+    max-width: 100px;*/
+    /*width: 100%;*/
+    background-color: #CEE2EE;
+    margin-bottom: 5px;
+    /*width: 412px !important;*/
+    height: 39px !important;
+    width: 100%;
+}
+
+#MultiDimensional .input-group {
+    width: 410px !important;
+}
+
+#MultiDimensional #MultiDimensionalDataPlaceHolder {
+    border: 4px dashed #E3E3E3;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#MultiDimensional #displayMultiTablePlaceHolder {
+    height: 415px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    color: #E3E3E3;
+    padding-top: 10%;
+    /*width: 414px;*/
+    width: 100%;
+}
+
+#MultiDimensional #displayMultidimViewPlaceHolder {
+    height: 215px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    color: #E3E3E3;
+    padding-top: 5%;
+    /*width: 414px;*/
+    width: 100%;
+}
+
+
+/*#MultiDimensional #MulDimDisplayTable{
+    height: 415px;
+    overflow: scroll;
+    }*/
+
+    #MultiDimensional #mulDimDispTableDiv {
+        width: 412px;
+        /*overflow: scroll;*/
+        height: 415px;
+    }
+
+    div#MultiDimSavDiv {
+        margin: 15px 0px 5px 0px;
+    }
+
+    .MultiDimViewList{
+      border: 1px solid #FFFFFF !important;
+      padding: 10px;
+      margin: 1px;
+      font-size: 13px;
+      color: white; 
+      background-color: #5BC0DE;
+      display: inline-table;
+  }

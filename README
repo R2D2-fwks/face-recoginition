@@ -1,0 +1,20 @@
+To start the Front End server of face rec.
+face_rec
+run the server
+$ node server.js
+
+
+To start the BACKEND  server of face rec.
+
+Login to antec server and enter the below commands
+
+source /home/ashtosh/Tools/virtualenvs/tensorflow/bin/activate
+
+cd to the below path
+
+/home/vinoo/face-recognition
+
+and run
+
+CUDA_VISIBLE_DEVICES=2 python jars.py runserver -t 0.0.0.0
+

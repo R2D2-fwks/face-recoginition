@@ -1,0 +1,19 @@
+The front-end of face recognition is available in antec server at the
+below location without electron.
+
+Front End
+
+face_rec.zip
+
+extract it and run the server
+node server.js
+
+To start the BACKEND  server of face rec.
+
+Login to antec server and enter the below commands
+source /home/ashtosh/Tools/virtualenvs/tensorflow/bin/activate
+
+cd face-recognition
+
+CUDA_VISIBLE_DEVICES=2 python jars.py runserver -t 0.0.0.0
+

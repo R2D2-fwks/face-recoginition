@@ -1,0 +1,323 @@
+{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+#Workbench .body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#Workbench table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+}
+
+#Workbench td {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 10px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 300;
+    /*background-color: #f5f5f5;*/
+    /*border: 1px solid rgba(222, 153, 94, 0.13);*/
+    border-bottom: 1px solid #e3e3e3;
+    color: #005172;
+}
+
+#Workbench th {
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+    /*background-color: #3d5263;*/
+    background-color: #DE995E !important;
+    color: white;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#Workbench tr:nth-child(odd) {
+    background: #F9F9F9;
+}
+#Workbench tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+#Workbench #Chart-Type {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    border: solid 1px #E4E4E4;
+}
+
+#Workbench-btncls {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#WorkbenchcollectionNamesTableDiv {
+    overflow: scroll;
+    height: 415px;
+}
+
+#DisplayMetaData {
+    margin-left: 12px;
+}
+
+#Workbench #chart-container {
+    height: 500px !important;
+}
+
+#Workbench label {
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+#Workbench-Col-List {
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #e3e3e3;
+    min-height: 50px;
+    margin-right: 5px;
+}
+
+#viewnametext {
+    width: 28% !important;
+    /*margin-left: 179px;*/
+}
+
+#Workbench-label {
+    margin-top: 15px;
+}
+
+#Workbench-btncls {
+    /*height: 44px !important;*/
+    /*margin-top: 5px;*/
+    /*margin-left: 5px;*/
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+#Workbench .pure-table-odd td {
+    background-color: #f2f2f2;
+}
+
+#Workbench .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+    text-align: left !important;
+}
+
+#Workbench #sortable1 {
+    list-style-type: none;
+    background: transparent;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+#Workbench #sortable3 {
+    list-style-type: none;
+    background: transparent;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+#Workbench #sortable2 {
+    list-style-type: none;
+    background: transparent;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+#Workbench .example-enter {
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+}
+
+#Workbench .example-enter.example-enter-active {
+    opacity: 1;
+}
+
+#Workbench #Table-Area {
+    background-color: rgba(234, 233, 229, 0.28);
+    margin-left: 0px !important;
+}
+
+#Workbench .container-yellow {
+    background-color: rgba(0, 0, 0, 0.21) !important;
+}
+
+#Workbench #sortable1 li,
+#Workbench #sortable3 li,
+#Workbench #sortable2 li {
+    padding-left: 5px;
+    margin: 0px 5px 5px 0px;
+    font-size: 13px;
+    width: 20%;
+    display: inline-flex;
+    line-height: 20px;
+    background: #5bc0de;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 200;
+    border: none;
+}
+
+#Workbench #Sel-Col-List {
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #e3e3e3;
+    margin-top: 10px;
+    min-height: 44px;
+    min-width: 81%;
+    margin-left: 0px;
+    background-color: #F5F5F5
+}
+
+#Workbench #Row-List {
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #e3e3e3;
+    margin-top: 10px;
+    max-height: 44px;
+    min-width: 81%;
+    margin-left: 0px;
+    background-color: #F5F5F5
+}
+
+#Workbench .gridster ul {
+    background-color: #F0F2F2 !important;
+    list-style-type: none;
+}
+
+#Workbench .gridster {
+    background-color: #F0F2F2 !important;
+}
+
+#Workbench #displayTablePlaceHolder {
+    height: 415px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    color: #E3E3E3;
+    padding-top: 10%;
+}
+
+#Workbench #chartTablePlaceHolder {
+    height: 415px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    color: #E3E3E3;
+    padding-top: 10%;
+}
+
+#Workbench #DisplayViewDataPlaceHolder {
+    height: 150px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    color: #E3E3E3;
+    margin-bottom: 10px;
+}
+
+#Workbench .placeHolderFa {
+    font-weight: 400;
+    color: #E3E3E3;
+    margin-top: 10%;
+}
+
+#Workbench .alert-box {
+    color: #555;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-left: 8px solid #71AACA;
+    margin: 4px 0px 8px 24px;
+    height: 30px;
+    width: 100%;
+    background-color: #CEE2EE;
+}
+
+
+/*#Workbench #DataNames{
+  min-height: 28px;
+  padding: 0px;
+  margin-left: 24px;
+  border: 1px solid #e3e3e3;
+  margin-top: 10px;
+  }*/
+
+  #Workbench #DataNames {
+    color: #555;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-left: 8px solid #71AACA;
+    margin-top: 10px;
+    /*margin-left: 10px;*/
+    min-height: 44px;
+    max-width: 100px;
+    /*width: 100%;*/
+    background-color: #CEE2EE;
+}
+
+#Workbench #Workbench-custom-search-input {
+    border: solid 1px #E4E4E4;
+    border-radius: 2px;
+    background-color: #fff;
+    height: 40px;
+    margin: 18px 0px 18px 0px;
+}
+
+#Workbench #Workbench-custom-search-input input {
+    border: 0;
+    box-shadow: none;
+    height: 38px;
+    padding: 2px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 14px;
+}
+
+#Workbench #Workbench-custom-search-input button {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    line-height: 26px;
+    border-left: solid 1px #ccc;
+    height: 38px;
+}
+
+#Workbench #Workbench-custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+div#descBox {
+    font-size: 12px;
+    color: #333868;
+    padding-bottom: 5px;
+}

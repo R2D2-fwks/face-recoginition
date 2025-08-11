@@ -1,0 +1,37 @@
+import web
+import json
+
+
+def notfound():
+    return web.notfound( json.dumps({'ok':0 , 'errcode':404 }  ))
+
+def internalerror():
+    return web.notfound( json.dumps({'ok':0 , 'errcode':500} ))
+
+urls = (
+    '/(.*)', 'handleRequest'
+)
+
+app = web.application(url ,globals())
+app.notfound = notfound
+app.internalerror = internalerror
+
+class handleRequest:
+    def GET(self,method_id):
+        if not method_id:
+            return web.notfound()
+        else:
+            return json.dumps({'ok': method_id})
+
+
+    def POST(self):
+        web_input = web.input()
+        data = web.data()
+        print data
+        pass
+
+    
+if __name__  == "__main__":
+    app.run()
+
+

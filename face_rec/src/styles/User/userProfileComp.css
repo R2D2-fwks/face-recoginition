@@ -1,0 +1,344 @@
+.user-details {
+    margin-top: -15px !important;
+    background: #EFF2F5;
+    margin-left: -30px;
+    padding: 10px 20px;
+    margin-right: -15px;
+}
+
+#user-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    border-radius: 50% !important;
+    /*border: 2px solid #ccc;*/
+    border: 2px solid #47BFB5;
+}
+
+p#user-det-text {
+    vertical-align: middle;
+    margin: 0px !important;
+}
+
+.addon-btn {
+    display: inline-block;
+    margin: 0px;
+    border: none !important;
+    outline: none;
+    background-color: transparent !important;
+    padding: 0px 10px;
+    vertical-align: middle;
+    float: right;
+    color: #333333;
+    cursor: pointer;
+}
+
+.addon-btn:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+.hasLeftSeparator {
+    border-left: 1px solid #CCCCCC !important;
+}
+
+.addon-btn-icon {
+    text-align: center;
+    font-size: 20px;
+}
+
+.addon-btn-text {
+    text-align: center;
+    font-size: 12px;
+}
+
+.vertical-btn-group {
+    position: relative;
+    vertical-align: middle;
+    background-color: #EFF2F5;
+    min-height: 600px;
+}
+
+.down-right {
+    float: right;
+    margin-top: 3px;
+}
+
+.dropdown-button {
+    font-family: "Helvetica Neue", "Helvetica";
+    text-align: left !important;
+    width: 100%;
+    color: #FFFFFF;
+    max-width: 100%;
+    background-color: #47BFB5;
+    padding: 6px 20px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #EFF2F5;
+    outline: none !important;
+    margin: 0px !important;
+}
+
+.dropdown-button:hover {
+    color: #FFFFFF;
+    background-color: #3c7371 !important;
+}
+
+ul.item-list {
+    background-color: #EFF2F5;
+    margin-bottom: 0px !important;
+}
+
+ul.item-list > li {
+    padding: 5px 5px 5px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.view-area {
+    /*background-color: #EFF2F5;*/
+    margin: 10px 0px;
+    min-height: 550px;
+    padding: 10px;
+}
+
+div.message-header {
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px #F5F5F5;
+}
+
+div.message-content {
+    padding: 5px 10px;
+    width: 100%;
+    text-align: left;
+}
+
+div.message-content svg {
+    width: 100% !important;
+    height: 100% !important;
+    vertical-align: top;
+}
+
+span.strong-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2C5D85;
+}
+
+li.mail-item-list {
+    cursor: pointer;
+}
+
+
+/*Search box*/
+
+#user-search-box {
+    margin-top: 5px;
+}
+
+#user-search-box .dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+
+#user-search-box .input-group-btn .btn-group {
+    display: flex !important;
+}
+
+#user-search-box .btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+
+#user-search-box .btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#user-search-box .btn-group .form-horizontal .btn[type="submit"] {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#user-search-box .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#user-search-box .form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #user-search-box #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    #user-search-box .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    #user-search-box .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+
+
+/*Available groups list*/
+
+ul.group-list {
+    display: list-item;
+    margin: 0px;
+}
+
+ul.group-list > li {
+    padding: 2px 10px;
+    margin-left: -40px;
+    border-bottom: 1px solid #ccc;
+    min-width: 200px;
+    text-align: center;
+}
+
+ul.group-list > li:last-child {
+    border: none;
+}
+
+.popover-content {
+    padding: 1px;
+}
+
+.icon-size-2 {
+    font-size: 20.5px !important;
+}
+
+.icon-size-1 {
+    font-size: 15px;
+}
+
+div.more-options-list {
+    min-width: 150px;
+    font-size: 13px;
+}
+
+div.more-options-list > select {
+    width: 70px;
+    font-size: 13px;
+}
+
+#folder-items button.folder-delete-btn {
+    float: right;
+    height: 25px;
+    padding: 0px 10px;
+    background: none;
+}
+
+#folder-items ul {
+    padding-top: 5px;
+}
+
+#folder-items ul>li {
+    width: 140px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.operation-box {
+    padding: 10px;
+    border: 1px dotted #ccc;
+    margin: 5px 0px;
+    border-radius: 5px !important;
+}
+
+.operation-btn {
+    padding: 0px 15px !important;
+}
+
+.selection-box {
+    min-height: 88px;
+    border: 1px dotted #ccc;
+    margin-top: 5px;
+    border-radius: 5px !important;
+}
+
+div.selection-box > select {
+    margin-top: 20%;
+    width: 150px;
+}
+
+.btn-for-remove {
+    background: none;
+    color: red;
+    border: none;
+    outline: none !important;
+}
+
+#blank-placeholder{
+    height: 300px;
+    width: 100%;
+    border: 4px dashed #ccc;
+    color: #ccc;
+    text-align: center;
+    margin-top: 15px;
+}
+#blank-placeholder > i{
+    font-size: 75px;
+    margin-top: 15%;
+}
+
+label.radio-gender>input[type="radio"]{
+    height: 0px;
+}
+label.radio-gender > input[type="radio"]:checked + img {
+    /*background: #ccc;*/
+    border-radius: 50% !important;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #71caad;
+}
+.gender-selector{
+    text-align: center;
+    margin: 15px;
+}
+
+.nouser-text{
+    text-align: center;
+}
+
+.table-action-item{
+    color: #333;
+}
+
+.viewarea-user{
+    margin-top: 35px;
+}
+
+.user-photo {
+    border-radius: 50% !important;
+    box-shadow: 0 0 0 3px #47bfb5;
+}
+
+#user-title{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#user-job{
+    font-size: 16px;
+}
+
+#user-other-detail{
+    font-size: 14px;    
+}

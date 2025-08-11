@@ -1,0 +1,24 @@
+{
+	"ignore": [
+		"js/dist/**",
+		"js/unitTests/**",
+		"js/useTests/**",
+		"js/perfTests/**",
+		"js/builds/**",
+		"js/tonic/**",
+		"js/lib/vendor/**",
+		"configData/**",
+		"coverage/**",
+		"data/**",
+		"chrome-extension/**",
+		"ionicExampleClient/**",
+		"ionicExampleServer/**",
+		"doc/**",
+		"out/**",
+		"**/node_modules/**",
+		"**/**-min-**",
+		"**/**-min.**",
+		"**/**.min.**",
+		"gruntfile.js"
+	]
+}

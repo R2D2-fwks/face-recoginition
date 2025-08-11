@@ -1,0 +1,504 @@
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+#dataMerge #mergeDataArea {
+    margin-top: 10px;
+}
+
+#dataMerge #DataSelectionArea {
+    margin-top: 10px;
+}
+
+#dataMerge .body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-weight: 400;
+}
+
+#dataMerge #selectedDataColumns1,
+#selectedDataColumns2,
+#filtered-col {
+    padding: 5px 0px 0px 10px;
+    border: 1px solid #e3e3e3;
+    min-height: 50px;
+    margin-right: 5px;
+}
+
+#dataMerge #selectedDataName1,
+#selectedDataName2 {
+    padding: 5px;
+    min-height: 50px;
+    color: black;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#dataMerge #DataDisplayArea {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#dataMerge #collectionNamesTableDiv {
+    height: 415px;
+    overflow-y: scroll;
+}
+
+#dataMerge .selectedDataName1 {
+    border: 1px solid #e3e3e3;
+    min-height: 50px;
+    margin-right: 20px;
+    margin-left: 14px;
+}
+
+#dataMerge .join-button {
+    min-height: 50px;
+    margin-right: 20px;
+    margin-left: 14px;
+    padding: 0px;
+}
+
+#dataMerge .join-button .btn {
+    width: 100%;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#dataMerge #selectedDataColumnsList1,
+#dataMerge #selectedDataColumnsList2 {
+    list-style-type: none;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+#dataMerge #pivotal-col-list,
+#dataMerge #filtered-col-list {
+    list-style-type: none;
+    padding: 2px;
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+}
+
+#dataMerge #selectedDataColumnsList1 li,
+#dataMerge #selectedDataColumnsList2 li,
+#dataMerge #filtered-col-list li {
+    padding-left: 5px;
+    margin: 3px 5px 5px 5px;
+    font-size: 13px;
+    width: 15%;
+    display: inline-flex;
+    line-height: 25px;
+    background-color: #5bc0de;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#dataMerge #pivotal-col-list li {
+    background-color: #5B9BD5;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    margin: 3px 5px 5px 5px;
+    padding-left: 5px;
+    background-color: #5bc0de;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#dataMerge table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+}
+
+#dataMerge table,
+#dataMerge th,
+#dataMerge td {
+    border-bottom: 1px solid #e3e3e3;
+    white-space: normal;
+    /* color: #73879C; */
+    color: #005172;
+}
+
+#dataMerge th {
+    text-align: left;
+    /* border-bottom: 2px solid #e3e3e3 !important; */
+    /* background-color: #00AFAA !important; */
+    background-color: #DE995E !important;
+    color: #FFFFFF !important;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+#dataMerge td {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 10px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 300;
+    /* background-color: #f5f5f5; */
+}
+
+#dataMerge tr:nth-child(odd) {
+    background: #F9F9F9;
+}
+
+#dataMerge tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+#dataMerge #DataNames {
+    max-height: 100px;
+    padding: 0px;
+    margin-left: 24px;
+    border: 1px solid #e3e3e3;
+}
+
+#dataMerge .table-css {
+    margin: 20px 20px 0px 0px;
+}
+
+#dataMerge #pivotal-col {
+    min-height: 75px;
+    margin: 18px 20px 5px 14px;
+    padding: 0px;
+    border: 1px solid #e3e3e3;
+}
+
+
+/*shobha*/
+
+#filter-col {
+    min-height: 400px;
+    margin: 18px 20px 5px 14px;
+    border: 1px solid #e3e3e3;
+}
+
+#dataMerge #displayArea {
+    height: 500px;
+    border: 1px solid #e3e3e3;
+    margin-right: 5px;
+    margin-top: 18px;
+}
+
+#dataMerge #DataDisplayAreaSeperator {
+    height: 200px;
+}
+
+#dataMerge .table-circle {
+    margin: 5% 0% 0% 36%;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 50% !important;
+}
+
+#dataMerge #metaDataContainer {
+    white-space: normal;
+    margin-left: 24px;
+    border: none;
+    height: 313px;
+    word-wrap: break-word;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    padding: 0px;
+}
+
+#dataMerge .alert-box {
+    color: #555;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-left: 8px solid #71AACA;
+    margin: 4px 0px 8px 24px;
+    height: 30px;
+    width: 100%;
+    background-color: #CEE2EE;
+}
+
+#dataMerge .removeLabel {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#dataMerge .label-name {
+    display: inline-block;
+}
+
+#dataMerge .alert-box-text {
+    display: inline-block;
+    margin: 6px 0px 0px 8px;
+}
+
+#dataMerge #metaDataContainer table,
+#dataMerge #metaDataContainer th,
+#dataMerge #metaDataContainer td {
+    border: none;
+    margin: 0px;
+    table-layout: fixed;
+}
+
+#dataMerge #metaDataContainer th {
+    height: 35px;
+    text-align: left;
+    padding: 5px !important;
+    /*color: Black;*/
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #6BD4C0 !important;
+}
+
+#dataMerge #metaDataContainer td {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 5px;
+    color: Black;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#dataMerge #DisplayMetaData {
+    margin: 0px;
+    padding: 0px;
+}
+
+#dataMerge #dataname-bucket h4 {
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 0px 10px 0px;
+    margin: 0px;
+}
+
+#dataMerge #submit-data-button {
+    font-family: 'Helvetica Neue', 'Helvetica';
+    line-height: 20px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+}
+
+#dataMerge #submit-data-names {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dataMerge #dataname-bucket .label-info {
+    display: inline-block;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 200;
+    padding: 5px;
+    margin: 9px 10px 4px 4px;
+    min-width: 60px;
+}
+
+#dataMerge #custom-search-input {
+    border: solid 1px #E4E4E4;
+    border-radius: 2px;
+    background-color: #fff;
+    height: 40px;
+    margin: 18px 0px 18px 0px;
+}
+
+#dataMerge #custom-search-input input {
+    border: 0;
+    box-shadow: none;
+    height: 38px;
+    padding: 2px;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 14px;
+}
+
+#dataMerge #custom-search-input button {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    line-height: 26px;
+    border-left: solid 1px #ccc;
+    height: 38px;
+}
+
+#dataMerge #custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#dataMerge #displayTablePlaceHolder {
+    height: 415px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 21px;
+    color: #E3E3E3;
+    padding-top: 10%;
+}
+
+#dataMerge #displayMetaTablePlaceHolder {
+    height: 313px;
+    border: 4px dashed #E3E3E3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 19px;
+    color: #E3E3E3;
+    padding: 8% 4% 4% 4%;
+}
+
+#dataMerge .placeHolderFa {
+    font-weight: 400;
+    color: #E3E3E3;
+    margin-top: 10%;
+}
+
+#choice-group {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #EDEDED;
+    margin: 10px 0px;
+}
+
+#table-filter-btn {
+    /*display: none;*/
+    margin-right: 7px !important;
+    height: 41px !important;
+    background: #3d5263 !important;
+    color: #FFFFFF;
+}
+
+#table-filter-adv {
+    /*display: none;*/
+    margin-right: 7px !important;
+    height: 41px !important;
+    background: #3d5263 !important;
+    color: #FFFFFF;
+}
+
+#dataMerge input[type="text"] {
+    height: 30px;
+    width: 120px;
+    font-size: small;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
+}
+
+#dataMerge select {
+    height: 31px;
+    width: 70px;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    color: black;
+}
+
+#dataMerge #btn-group {
+    position: relative;
+    background-color: #3d5263;
+    margin-bottom: 10px;
+}
+
+#dataMerge button.btn {}
+
+#table-filter-app {
+    /*display: none;*/
+    margin-right: 7px !important;
+    height: 41px !important;
+    background: #3d5263 !important;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+#dataMerge .mergeTable {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#dataMerge #adv-query-area {
+    max-width: 80%;
+    max-height: 150px;
+}
+
+#dataMerge #adv-query-area-div {
+    display: none;
+}
+
+#join-table, #merge-table{
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+#search_btn {
+    height: 46px;
+}
+
+.btn-join-right{
+    float: right;
+    margin-bottom: 10px;
+}
+
+ul#col-list-group > li.list-group-item{
+    width: 100% !important;
+}
+
+ul#pivotal-area > li.list-group-item,
+ul#selection-area > li.list-group-item{
+    width: 50% !important;
+    text-align: center;
+}
+
+.select2-container--default .select2-selection--single {
+    width: 100% !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+
+.join-selection{
+    height: 30px;
+    width: 50%;
+    padding: 2px;
+    margin: 5px 0px;
+    border: 1px solid #337ab7;
+    color: #333;
+}
+.join-config-icon{
+    padding: 0 3px !important;
+    margin: 5px 0px;
+}
+
+label.header-label {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #ececec;
+    padding: 5px 35px;
+    margin-bottom: -1px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    background-color: rgb(237, 237, 237);
+}

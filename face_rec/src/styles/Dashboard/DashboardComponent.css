@@ -1,0 +1,199 @@
+#dashboardComponent {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: 130px;
+}
+#dashboardComponent .info-box {
+  display: block;
+  min-height: 90px;
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+#dashboardComponent .info-box-icon {
+  display: block;
+  float: left;
+  height: 90px;
+  width: 90px;
+  margin-left: -8px;
+  border-radius: 50% !important;
+  text-align: center;
+}
+#dashboardComponent .info-box-icon-content {
+  display: block;
+  float: left;
+  height: 75px;
+  width: 75px;
+  border-radius: 50% !important;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: white;
+  margin: 8px;
+  line-height: 75px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#dashboardComponent .btn-style {
+  display: block;
+  float: left;
+  height: 45px !important;
+  width: 138px !important;
+  text-align: left;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  color: white !important;
+  background-color: transparent !important;
+  padding: 6px !important;
+}
+#dashboardComponent .info-box-text {
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 2px !important;
+  display: block;
+  float: left;
+  height: 45px;
+  width: 138px;
+  text-align: center;
+  margin-top: 25px;
+}
+#dashboardComponent .info-box-text-bg-aqua, .info-box-icon-bg-aqua {
+  background-color: #26756F;
+}
+#dashboardComponent .info-box-text-bg-red, .info-box-icon-bg-red {
+  background-color: #FF8C00;
+}
+#dashboardComponent .info-box-text-bg-green, .info-box-icon-bg-green {
+  background-color: #FF2d00;
+}
+#dashboardComponent .info-box-text-bg-yellow, .info-box-icon-bg-yellow {
+  background-color: #657FD9;
+}
+
+/*ticker css*/
+
+/*#dashboardComponent .ticker-header {
+  border-bottom: 1px solid #A7A7A7;
+  height: 50px;
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #222d32;
+  }*/
+  #dashboardComponent .ticker {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    /* border: 1px solid #DDD; */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px #DDD; */
+    /* background-color: #f0f3f5; */
+    text-align: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    /* margin: 0px 10px 0px 15px !important; */
+    font-size: 13px;
+  }
+/*#dashboardComponent .ticker h3 {
+  display: block;
+  width: 370px;
+  margin: 0px !important;
+  padding: 13px 0px 0px 135px!important;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  }*/
+  #dashboardComponent .ticker ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*font-style: italic;*/
+  }
+  #dashboardComponent .ticker ul li {
+    list-style: none;
+    height: 50px;
+    padding: 7px;
+    border-bottom: 1px solid #b8c7ce;
+  }
+
+  /*Line Chart css*/
+
+  #line-chart {
+    margin-left: 10px;
+  }
+  #line-chart svg {
+    height: 300px !important;
+    width: 600px;
+  }
+
+  /* Shobha */
+  #dashboard-container{
+    background-color:#F7F7F7;
+    min-height: 650px;
+  }
+  .box-seperator{
+    background-color: #ADB2B5;
+    height: 65px;
+    width: 2px;
+    display: inline-block;
+  }
+  .db-info-box{
+    margin-bottom: 10px;
+    border-bottom: 0;
+    padding-bottom: 10px;
+    width: 90%;
+    display: inline-block;
+    vertical-align: top;
+    color: #73879C;
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+  }
+  .db-info-box-header{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.471;
+  }
+  .db-info-box-content{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*width: 150px;*/
+    width: 90%;
+    cursor: pointer;
+  }
+  #chart-header, #ticker-header{
+    font-size: 18px;
+    color: #73879C;
+    border-bottom: 2px solid #E6E9ED;
+    font-weight: 400;
+    line-height: 2em;
+  }
+
+  #dashboard-box{
+    border: 1px solid #E6E9ED;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    min-height: 340px;
+  }
+  div.alert-box-snap1 {
+    color: #555;
+    font-family: 'Helvetica Neue', 'Helvetica';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-left: 8px solid #71AACA;
+    min-height: 30px;
+    width: 100%;
+    background-color: #CEE2EE;
+  }
+  div.alert-box-snap1 .alert-box-text {
+    display: inline-block;
+    margin: 7px;
+    text-transform: uppercase;
+  }

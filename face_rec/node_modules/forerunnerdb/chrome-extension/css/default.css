@@ -1,0 +1,87 @@
+* {
+  font-size: 12px;
+  font-family: 'Lucida Grande', sans-serif;
+}
+body {
+  overflow: hidden;
+}
+.relative {
+  position: relative;
+}
+.fill {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fill.absolute {
+  position: absolute;
+}
+.fill.relative {
+  position: relative;
+}
+.top-30 {
+  top: 30px;
+}
+.top-40 {
+  top: 40px;
+}
+.top-50 {
+  top: 50px;
+}
+.scrolling {
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.indent {
+  display: inline-block;
+  width: 15px;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table.fixed {
+  table-layout: fixed;
+}
+.objectStart {
+  background-color: #ecf6ff;
+}
+/* Override treeview css to make it a bit easier to read */
+.indent {
+  width: 0px !important;
+}
+.treeview span.indent {
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+}
+.list-group-item {
+  padding: 5px 5px !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.list-group-item:first-child {
+  border-radius: 0 !important;
+}
+.treeControls {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+.treeControls .title {
+  font-weight: bold;
+  font-size: 16px;
+}
